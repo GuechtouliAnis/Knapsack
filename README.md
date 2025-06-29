@@ -1,5 +1,7 @@
 # Knapsack Optimization App
 
+<img src="icons/image_1.png">
+
 ## Overview
 This project is a Streamlit-based web application that solves a knapsack optimization problem using mixed-integer programming with the GEKKO optimization library. Users can input the values and weights of different items, select a knapsack type (0/1 or unbound), and visualize the best combination of items to maximize value within a given weight limit.
 
@@ -63,19 +65,26 @@ Install the dependencies using:
 pip install -r requirements.txt
 ```
 
-
-## How It Works
-1. **Input Values and Weights**: The user inputs values and weights for the items in the app.
-2. **Select Knapsack Type**: The user chooses between the 0/1 knapsack or unbound knapsack type.
-3. **Solve the Problem**: The app uses GEKKO to solve the optimization problem.
-4. **Visualize the Solution**: The app displays the selected items and their quantities using images.
-5. **View the DataFrame**: The app displays a DataFrame containing the solution details, including the total value and weight.
-
 ## Example Use Case
 **Scenario**: You have a sack with a weight limit of 15 units. You need to decide which items (Hammer, Screw, Towel, Wrench, Screwdriver) to pack to maximize the value without exceeding the weight limit.
-- Enter the <b>values</b> and <b>weights</b> for each item.
-- Select the knapsack type (<b>0/1</b> or <b>unbound</b>).
-- Click <b>"Submit"</b> to see the optimal solution.
+
+1. **Input Values and Weights**: Input values and weights for the items in the app.
+
+2. **Select Knapsack Type**: Choose between the 0/1 knapsack or unbound knapsack type.
+
+<img src='icons/image_2.png'>
+
+3. **Solve the Problem**: The app uses GEKKO to solve the optimization problem.
+
+4. **Visualize the Solution**: The app displays the selected items and their quantities using images.
+
+5. **View the DataFrame**: The app displays a DataFrame containing the solution details, including the total value and weight.
+
+Binary Knapsack solution
+<img src='icons/image_3.png'>
+
+Unbound Knapsack solution
+<img src='icons/image_4.png'>
 
 ## License
 This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as needed.
@@ -83,7 +92,6 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 
 ## Author
 Anis Guechtouli
-
 
 ## Contact
 For any questions or suggestions, feel free to contact me at [guechtoulianiss7@gmail.com].

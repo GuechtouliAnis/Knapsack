@@ -164,7 +164,7 @@ def visualize(df):
         state = get_state(item, df)
         
         # Display the image representing the item's state (on/off)
-        col.image(state_images[item], caption=str(item), use_column_width=True)
+        col.image(state_images[item], caption=str(item), use_container_width=True)
         
         # Display the item's quantity with the corresponding color
         col.caption(f"""<div style="text-align:center">
