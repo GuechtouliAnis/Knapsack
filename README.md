@@ -9,6 +9,7 @@ The project is split into two main files:
 - **Knap_funcs.py**: Contains the core logic for handling inputs, solving the optimization problem, and visualizing the results.
 - **Knap.py**: The main script that sets up the Streamlit app and calls functions from `Knap_funcs.py`.
 
+🚀 **[👉 Try the Live App Here](https://knapsack-optimisation-aniss.streamlit.app/)**
 
 ## Features
 - **User Input Interface**: Allows users to input the values and weights of five different items (Hammer, Screw, Towel, Wrench, Screwdriver).
